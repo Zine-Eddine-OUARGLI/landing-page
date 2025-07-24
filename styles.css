@@ -46,6 +46,7 @@ body{
     color: black;
 }
 
+/*changing link in navbar interaction on hover*/
 .navbar a:hover{
     color: blue;
     text-decoration: underline;
@@ -117,6 +118,7 @@ body{
     flex: 1 1 40%;
 }
 
+/*changing box container interaction on hover*/
 .product-box:hover{
     box-shadow: 10px 5px 5px black;
     transform: scale(1.05);
@@ -128,6 +130,7 @@ body{
     border: 1px solid rgba(255, 255, 255, 0.63);
 }
 
+/*changing image interaction on hover*/
 .product-box img:hover{
     transform: scale(1.10);
     cursor: pointer;
@@ -144,6 +147,7 @@ button{
     border-radius: 25px;
 }
 
+/*changing button interaction on hover*/
 button:hover{
     cursor: pointer;
     background-color: rgba(0, 4, 255, 0.808);;
@@ -187,6 +191,7 @@ button:hover{
     color: black;
 }
 
+/*changing the text interaction on hover*/
 .footer-box a:hover{
     color: blue;
     text-decoration: underline;
@@ -198,10 +203,12 @@ button:hover{
     justify-content: space-evenly;
 }
 
+/*changing the cursor on hover*/
 .icon-container i:hover{
     cursor: pointer;
 }
 
+/*making the form be displayed one after another*/
 .footer-box form{
     display: flex;
     flex-direction: column;
@@ -231,6 +238,7 @@ span{
     text-decoration: none;
 }
 
+/*custom CSS for the labels, inputs and textarea in our HTML document*/
 label{
     margin: 10px 0px;
     font-size: 18px;
@@ -255,6 +263,7 @@ textarea{
     padding-left: 5px;
 }
 
+/*custom CSS for when the screen gets smaller*/
 @media only screen and (max-width: 768px) {
     .navbar{
         display: none;
